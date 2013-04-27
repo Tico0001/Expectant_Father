@@ -1,7 +1,10 @@
 /*
-The watch face only tells you how far along your wife is in the pregnancy in terms of weeks. And the size of the baby compared to a fruit. 
-This is my first watch face and my first program in C. The code could be better. I couldn't get mktime() to work so I had to come up with a different way to subtract dates.
-You need to enter the approximate conception date and recompile. You can also modify the code to enter the name of your wife and future baby.
+The watch face only tells you how far along your wife is in the pregnancy in terms of weeks. 
+And the size of the baby compared to a fruit. 
+This is my first watch face and my first program in C. The code could be better.
+I couldn't get mktime() to work so I had to come up with a different way to subtract dates.
+You need to enter the approximate conception date and recompile. 
+You can also modify the code to enter the name of your wife and future baby.
 
 */
 
