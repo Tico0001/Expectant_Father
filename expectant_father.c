@@ -22,7 +22,7 @@ PBL_APP_INFO(MY_UUID,
              APP_INFO_WATCH_FACE);
 
 //conception date
-int year_concep = 2012, month_concep =11, day_concep =30;
+int year_concep = 2012, month_concep =11, day_concep =8;
 
 Window window;
 
@@ -172,7 +172,7 @@ void handle_minute_tick(AppContextRef ctx, PebbleTickEvent *t) {
   (void)t;
   (void)ctx;
 
-  static char wifeText[] = "My wife is    weeks pregnant."; 
+  static char wifeText[] = "Karolin is    weeks pregnant."; 
   static char weekText[] = "XX";
   static char papaText[] = "  The baby is the"; 
   static char compText[] = "              ";
