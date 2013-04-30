@@ -202,7 +202,7 @@ void handle_init(AppContextRef ctx) {
   //resource_init_current_app(&APP_RESOURCES);
 
   // Init the text layer used to show the weeks
-  text_layer_init(&weekLayer, GRect(80, 0, 144-20 /* width */, 168-54 /* height */));
+  text_layer_init(&weekLayer, GRect(85, 0, 144-20 /* width */, 168-54 /* height */));
   text_layer_set_text_color(&weekLayer, GColorBlack);
   text_layer_set_background_color(&weekLayer, GColorClear);
   text_layer_set_font(&weekLayer, fonts_get_system_font(FONT_KEY_GOTHAM_34_MEDIUM_NUMBERS));
