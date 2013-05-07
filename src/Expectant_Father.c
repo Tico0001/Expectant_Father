@@ -22,7 +22,7 @@ PBL_APP_INFO(MY_UUID,
              APP_INFO_WATCH_FACE);
 
 //conception date
-int year_concep = 2012, month_concep =10, day_concep =15;
+int year_concep = 2012, month_concep =11, day_concep =30;
 
 Window window;
 
@@ -50,8 +50,8 @@ char* comparisons[] = {
   "  size of a ",
   "  size of a ",
   "  size of a ",
-  "  size of a ",
-  "  size of a ",
+  "  size of an ",
+  "  size of an ",
   "  weight of a ",
   "  length of a ",
   "  length of a ",
@@ -59,7 +59,7 @@ char* comparisons[] = {
   "  weight of a ",
   "  weight of a ",
   "  weight of a ",
-  "  length of a ",
+  "  length of an ",
   "  weight of a ",
   "  length of a ",
   "  weight of a ",
@@ -79,10 +79,10 @@ char* comparisons[] = {
 };
 
 char* fruits[] = {
-  "    a dot",
-  "    a dot", 
-  "    a dot", 
-  "    a dot", 
+  "    dot",
+  "    dot", 
+  "    dot", 
+  "    dot", 
   "    poppy seed",
   "   sesame seed",
   "    lentil",
@@ -159,11 +159,11 @@ long get_weeks() {
 	get_time(&t);
 
 	long diff_days;
-
+	
 	diff_days = day_year(t.tm_mday, t.tm_mon+1, t.tm_year+1900) - day_year(day_concep, month_concep, year_concep);
 
     	return diff_days/7;
-
+	
 }
 
 // Called once per minute
